@@ -1,8 +1,8 @@
 # Light-Bulb-Surprise
-An arduino project that turns a light bulb into a confetti globe!
+We created a device that turns a light bulb into a bead confetti globe! When you push the button that is attached to the light bulb box, instead of expecting for the bulb to be lighten up, you will see many colorful beads bouncing around inside of the light bulb. What a surprise!
 
 # Hardware setup
-You will need: 
+Materials: 
 1. Arduino
 2. An opened light bulb. See tutorial here: http://www.instructables.com/id/How-to-open-a-light-bulb-without-breaking-it/
 3. A big push button like this one: https://www.sparkfun.com/products/9181
@@ -11,6 +11,10 @@ You will need:
 6. Two boxes, one for staging the button, one for staging the light bulb. Their lasercut files(dxf) are in the repository.
 7. Some colorful beads!
 
-# How to play
-When you push the button, the arduino will tell the motor and its attached washer to spin. So instead of expecting for the bulb to be lighten up, you actually see many colorful beads bouncing around inside of the light bulb. What a surprise!
+Essentially we opened and cleaned a real light bulb, and placed it onto a wooden box. A giant push button is connected to an Arduino board inside of the box, which is then connected to a motor and a potentiometer (for controlling the motor speed). 
+
+The motor is screwed to a wooden plate, and is placed right below the light bulb. A washer is bended into a hyperbolic shape and hooked onto the motor to serve as a "blender blade".  The "blade" part of the motor is located inside of the metal neck part of the light bulb. 
+
+# How does it work
+When press the button once, the Arduino will controll the motor to spin. The attached washer will hit the beads inside of the light bulb, causing them to bounce around. When press it once more, the motor will stop.
 
